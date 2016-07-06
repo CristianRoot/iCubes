@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iCubes</string>
+    <string name="action_settings">Settings</string>
+    <string name="jugar">Jugar</string>
+    <string name="clasificacion">Clasificacion</string>
+    <string name="salir">Salir</string>
+    <string name="tiempo">Tiempo</string>
+    <string name="puntuacion">Puntuacion</string>
+    <string name="instrucciones">Instrucciones</string>
+    <string name="ins1">Forma cuadrados del mismo color. </string>
+    <string name="ins2">La linea limpiara los cuadrados unidos.  </string>
+    <string name="ins3">Cada cuadrado eliminado te dara un punto.  </string>
+    <string name="ins4">Borra cuadrados seguidos para aumentar el multiplicador.  </string>
+    <string name="ins5">Da un toque a la pantalla para rotar el cuadrado.  </string>
+    <string name="ins6">Mueve el dedo por cualquier parte para mover el cuadrado.  </string>
+    <string name="puntuacion_conseguida">Puntuacion conseguida  </string>
+    <string name="toca_para_continuar">Toca para continuar  </string>
+    <string name="acerca_de">Acerca de</string>
+
+</resources>

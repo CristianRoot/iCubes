@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dam.cristian.icubes"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        
+        <activity
+            android:name="dam.cristian.icubes.MenuPrincipal"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name="JuegoPrincipal"
+            android:screenOrientation="landscape"></activity>
+        
+        <activity android:name="Resultados"
+            android:screenOrientation="landscape"></activity>
+        
+        <activity android:name="Instrucciones"
+            android:screenOrientation="landscape"></activity>
+        
+        <activity android:name="Puntuaciones"
+            android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>
